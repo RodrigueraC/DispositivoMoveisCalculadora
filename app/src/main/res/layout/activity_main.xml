@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/codigoProduto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Código do Produto" />
+
+    <EditText
+        android:id="@+id/quantidadeProduto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Quantidade"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/adicionarCarrinhoButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adicionar ao Carrinho" />
+
+    <Button
+        android:id="@+id/finalizarCompraButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Finalizar Compra"
+        android:paddingTop="8dp" />
+
+    <TextView
+        android:id="@+id/resultadoTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resultado"
+        android:textSize="18sp"
+        android:paddingTop="16dp" />
+
+    <TextView
+        android:id="@+id/totalCarrinhoTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total no Carrinho: R$ 0,00"
+        android:textSize="18sp"
+        android:paddingTop="16dp" />
+
+</LinearLayout>
